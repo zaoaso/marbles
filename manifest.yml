@@ -1,10 +1,10 @@
 ---
 applications:
 - disk_quota: 1024M
-  name: marbles
+  name: marbles-blockchain-par01
   command: "node app.js"
   path: "."
   instances: 1
   memory: 512M
   services:
-   - myblockchain
+   - mmarbles-blockchain
